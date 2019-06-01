@@ -1,4 +1,6 @@
 ##QUOTES
+
+##Description
 Quotes is an application with quotes. It allows a user to read quotes, create  and delete quotes. The application also allows a user to up vote or down vote a quote and see the number of up votes or down votes for each quote.
 
 ##Author:

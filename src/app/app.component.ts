@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {quotes} from  './quotes'
+
 
 
 @Component({
@@ -8,5 +8,9 @@ import {quotes} from  './quotes'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My Quotes';
+  Quotes: string[];
+
+  constructor(){
+    this.Quotes = ["The mind is powerful",  "Have a purpose"]
+  }
 }
