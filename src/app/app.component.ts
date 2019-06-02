@@ -8,9 +8,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  Quotes: string[];
-
-  constructor(){
-    this.Quotes = ["The mind is powerful",  "Have a purpose"]
-  }
 }
