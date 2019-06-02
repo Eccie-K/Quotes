@@ -6,7 +6,7 @@ Quotes is an application with quotes. It allows a user to read quotes, create  a
 <h3>Author:</h3>
 Esther Kirui<br>
 
-<h3>Technologies Used:
+<h3>Technologies Used:</h3>
 The Angular Frame work has been used in the development of this application.<br>
 The languages used are:<br>
 - Type script for functionality<br>
