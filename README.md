@@ -36,6 +36,6 @@ Mobile:+254775946131<br>
 Email:estherkc100@gmail.com<br>
 
 <h3>License and Copyright Information.</h3><br>
-https://github.com/Eccie-K/pig-dice-game/blob/master/LICENSE.md<br>
+https://github.com/Eccie-K/Quotes/blob/master/LICENSE.md<br>
 Copyright ©2019 Esther Kirui.
 
