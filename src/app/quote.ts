@@ -1,12 +1,11 @@
 export class Quote {
-    showDescription: Boolean;
+    
      constructor (
-         public  id: number, 
-         public name:    string,
-         
- 
-        ){
-            this.showDescription  =  false;
-        }
+         public id:    number,
+         public  quote: string, 
+         public  author:  string,
+         public description: string,
+         public upVote: number,
+         public downVote:   number,){}
  }
  
