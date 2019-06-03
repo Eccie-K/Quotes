@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Quote}  from  '../quote'
-import { maybeQueueResolutionOfComponentResources } from '@angular/core/src/metadata/resource_loading';
+
 
 @Component({
   selector: 'app-quote',
@@ -8,6 +8,11 @@ import { maybeQueueResolutionOfComponentResources } from '@angular/core/src/meta
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
+  quotes  = [
+    new Quote(1, "Be kind always"),
+    new Quote(2,"Never say never"),
+    new Quote(3,"Die trying"),
+  ]
 
   constructor() { }
 
