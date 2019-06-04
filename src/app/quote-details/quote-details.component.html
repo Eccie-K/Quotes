@@ -1,5 +1,10 @@
-<p>
-    {{quote.description}}, {{quote.completeDate|date}}</p><br>
-    <p>This goal will be completed in {{goal.completeDate|dateCount}} days</p>
-    <button (click) = 'quoteDelete(true)'> Delete </button>
+
+    <p>{{quote.author}}, {{quote.completeDate|date}}</p><br>
+    <p> {{quote.completeDate|dateCount}} days</p>
+    <p><b>upVotes:</b> {{quote.upVote}}</p>
+    <p><b>downVotes:</b> {{quote.downVote}}</p>
+    <button class="btn btn-success" (click) = 'quoteDelete(true)'> <b>Delete</b> </button>
+    <button class="btn btn-primary" (click) = ' quoteUpVote()'> <b>upVote</b> </button>
+    <button class="btn btn-success" (click) = 'quoteDownVote()'><b> downVote</b></button>
+    
 

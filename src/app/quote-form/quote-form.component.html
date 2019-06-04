@@ -1,42 +1,33 @@
 
-<div class="container-fluid">
+<div style="background-color:lightgrey" class="container-fluid">
     <div class="row">
-        <form>
+        <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
             <div class="form-group">
 
-                <label for="name"><b>Name</b></label><br>
-                <input type="text" required class="form-control" id="name">
-
+                <label for="Author"><b>Author</b></label><br>
+                <input type="text" required class="form-control" id="author"  [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
+            
             </div>
             <br>
             <br>
             <div class="form-group">
 
                 <label for="Quote"><b>Quote</b></label><br>
-                <textarea class="form-control" id="description" rows="4" required></textarea>
+                <textarea  name="text"   class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required></textarea>
                 
-            </div>
-            <br>
-            <br>
-            <div class="form-group">
-
-                <label for="Author"><b>Author</b></label><br>
-                <input type="text" required class="form-control" id="name">
-
             </div>
             <br>
             <br>
             <div class="form-group">
                 <label for="Date"><b>Date</b></label><br>
-                <input type='date' id="complete" required>
+                <input type='date' id="complete" name="completeDate" [(ngModel)]="newQuote.completeDate" #completeDate="ngModel" required>
                 
             </div>
             <br>
-            <div>
-                <button class="btn btn-primary" type="Submit">submit</button> 
-
-            </div>
             
+            <button class="btn btn-primary" type="Submit">submit</button>
+            <br>
+            <br>
         </form>
     </div>
 </div>
